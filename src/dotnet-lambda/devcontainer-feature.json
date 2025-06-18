@@ -1,0 +1,19 @@
+{
+    "name": "Dotnet Lambda Tooling",
+    "id": "dotnet-lambda",
+    "version": "1.0.0",
+    "description": "This feature installs the AWS Lambda Tools and templates for dotnet CLI, enabling you to create, build, and deploy AWS Lambda functions nd serverless SAM based projects using .NET.",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "latest"
+            ],
+            "default": "latest",
+            "description": "Select or enter the version of the dotnet lambda tooling to install. Use 'latest' to always get the latest version."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/dotnet:2"
+    ]
+}
