@@ -5,7 +5,7 @@ echo "Installing .NET Lambda Tools and templates..."
 echo "the specified version is ${VERSION}"
 
 echo "Installing .NET Lambda Tools..."
-if [ "${VERSION}" != "latest" ]; then
+if [ "${VERSION}" == "latest" ]; then
     echo "installing latest version of Amazon.Lambda.Tools"
     dotnet tool install -g Amazon.Lambda.Tools
 else
