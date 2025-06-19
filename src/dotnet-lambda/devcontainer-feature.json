@@ -1,7 +1,7 @@
 {
     "name": "Dotnet Lambda Tooling and Templates",
     "id": "dotnet-lambda",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "This feature installs the AWS Lambda Tools and templates for dotnet CLI, enabling you to create, build, and deploy AWS Lambda functions nd serverless SAM based projects using .NET.",
     "documentationURL": "https://github.com/scottjbaldwin/dotnet-lambda-feature/blob/main/src/dotnet-lambda/",
     "options": {
