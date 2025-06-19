@@ -6,7 +6,7 @@ Installs the [dotnet lambda tools](https://github.com/aws/aws-lambda-dotnet) and
 
 ```json
 "features": {
-    "ghcr.io/scottjbaldwin/dotnet-lambda/dotnetlambda:1": {}
+    "ghcr.io/scottjbaldwin/dotnet-lambda-feature/dotnetlambda:1": {}
 }
 ```
 
