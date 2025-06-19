@@ -1,0 +1,20 @@
+
+{
+    "install_dotnet_lambda": {
+        "image": "mcr.microsoft.com/devcontainers/base:debian",
+        "features": {
+            "ghcr.io/devcontainers/features/common-utils:1": {
+                "installZsh": false,
+                "installOhMyZsh": false,
+                "upgradePackages": false,
+                "username": "octocat"
+            },
+            "ghcr.io/devcontainers/features/dotnet:2": {
+                "version": "lts"
+            },
+            "dotnet-lambda": { }
+        },
+        "remoteUser": "vscode"
+    },
+
+}
