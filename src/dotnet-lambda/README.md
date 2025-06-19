@@ -1,23 +1,24 @@
-# Dotnet Lambda (dotnet-lambda)
 
-Installs the [dotnet lambda tools](https://github.com/aws/aws-lambda-dotnet) and the associated templates.
+# Dotnet Lambda Tooling and Templates (dotnet-lambda)
 
-# Example Usage
+This feature installs the AWS Lambda Tools and templates for dotnet CLI, enabling you to create, build, and deploy AWS Lambda functions nd serverless SAM based projects using .NET.
+
+## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/scottjbaldwin/dotnet-lambda-feature/dotnetlambda:1": {}
+    "ghcr.io/scottjbaldwin/dotnet-lambda-feature/dotnet-lambda:1": {}
 }
 ```
 
-# Options
+## Options
 
 | Options Id | Description | Type | Default Value |
-| ---------- | ----------- | ---- | ------------- |
-|  version   | The version of the .Net lambda tools to install | string | latest |
+|-----|-----|-----|-----|
+| version | Select or enter the version of the dotnet lambda tooling to install. Use 'latest' to always get the latest version. | string | latest |
 
-# OS Support
 
-This feature should work on any OS that supports the [dotnet feature](https://github.com/devcontainers/features/blob/main/src/dotnet/README.md#os-support)
 
-`bash` is required to execute the `install.sh` script.
+---
+
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/scottjbaldwin/dotnet-lambda-feature/blob/main/src/dotnet-lambda/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
